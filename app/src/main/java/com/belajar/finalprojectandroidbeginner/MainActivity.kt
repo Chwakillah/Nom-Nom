@@ -1,6 +1,8 @@
 package com.belajar.finalprojectandroidbeginner
 
+import android.content.Intent
 import android.os.Bundle
+import android.widget.ImageView
 import androidx.activity.enableEdgeToEdge
 import androidx.appcompat.app.AppCompatActivity
 import androidx.core.view.ViewCompat
@@ -21,6 +23,12 @@ class MainActivity : AppCompatActivity() {
 
         list.addAll(getListFoods())
         showRecyclerList()
+
+        val aboutMe = findViewById<ImageView>(R.id.about_page)
+        aboutMe.setOnClickListener {
+            val intent = Intent(this, AboutActivity::class.java)
+            startActivity(intent)
+        }
     }
 
     private fun getListFoods(): ArrayList<FoodItem> {

@@ -1,9 +1,11 @@
 <resources>
-    <string name="app_name">FinalProjectAndroidBeginner</string>
+    <string name="app_name">Nom-Nom</string>
     <string name="food_title">Soto Babat</string>
     <string name="food_desc">Soto babat adalah salah satu jenis soto khas Indonesia yang terbuat dari daging babat, yaitu bagian dari perut sapi yang dikenal dengan teksturnya yang kenyal.</string>
     <string name="title_detail">Soto Babat</string>
     <string name="description_detail">Soto babat adalah salah satu jenis soto khas Indonesia yang terbuat dari daging babat, yaitu bagian dari perut sapi yang dikenal dengan teksturnya yang kenyal. Soto ini biasanya disajikan dalam kuah kaldu yang kaya akan rempah-rempah, seperti kunyit, jahe, dan serai, yang memberikan cita rasa yang khas.</string>
+    <string name="about_name">Syakillah Nachwa</string>
+    <string name="about_dicodingEmail">syakillahnachwa081@gmail.com</string>
 
     <string-array name="data_name">
         <item>Soto Babat</item>
@@ -18,17 +20,18 @@
         <item>Rawon</item>
     </string-array>
     <string-array name="data_desc">
-        <item>Soto babat adalah salah satu jenis soto khas Indonesia yang terbuat dari daging babat, yaitu bagian dari perut sapi yang dikenal dengan teksturnya yang kenyal.</item>
-        <item>Nasi goreng adalah hidangan khas Indonesia yang terdiri dari nasi yang digoreng dengan bumbu-bumbu seperti bawang putih, bawang merah, kecap manis, dan sambal, serta sering kali diberi tambahan bahan-bahan lain seperti telur, ayam, udang, atau sayuran.</item>
-        <item>Sate ayam adalah hidangan khas Indonesia yang terdiri dari potongan daging ayam yang ditusuk menggunakan tusuk sate, kemudian dibakar atau dipanggang di atas arang.</item>
-        <item>Rendang adalah masakan tradisional khas Minangkabau, Sumatera Barat, yang terkenal dengan cita rasa kaya bumbu dan proses memasak yang lama.</item>
-        <item>Bakso adalah hidangan populer khas Indonesia yang terdiri dari bola-bola daging, biasanya terbuat dari campuran daging sapi giling, tepung, dan bumbu, yang disajikan dalam kuah kaldu gurih.</item>
-        <item>Pempek adalah makanan khas Palembang, Sumatera Selatan, yang terbuat dari adonan ikan dan tepung sagu yang digoreng atau direbus, lalu disajikan dengan kuah cuka yang disebut cuko.</item>
-        <item>Ayam serundeng adalah hidangan khas Indonesia yang terdiri dari ayam yang dimasak dengan berbagai bumbu dan disajikan dengan serundeng, yaitu parutan kelapa yang digoreng hingga kering.</item>
-        <item>Nasi Padang adalah hidangan khas Minangkabau dari Sumatera Barat, Indonesia, yang terkenal dengan sajian nasi putih yang disajikan bersama berbagai lauk pauk khas Minang.</item>
-        <item>Mie ayam adalah salah satu hidangan populer di Indonesia yang terdiri dari mi yang disajikan dengan potongan daging ayam yang dimasak dengan bumbu kecap, dan dilengkapi dengan kuah kaldu.</item>
-        <item>Rawon adalah hidangan sup daging khas Jawa Timur, Indonesia, yang memiliki warna hitam pekat karena penggunaan kluwek (buah keluak) sebagai bahan utama.</item>
+        <item>Soto babat adalah salah satu jenis soto khas Indonesia yang terbuat dari daging babat, yaitu bagian dari perut sapi yang dikenal dengan teksturnya yang kenyal. Bahan utama: Babat (bagian dalam perut sapi), bawang putih, bawang merah, serai, daun salam, jahe, kunyit, santan, dan rempah-rempah lainnya.</item>
+        <item>Nasi goreng adalah hidangan khas Indonesia yang terdiri dari nasi yang digoreng dengan bumbu-bumbu seperti bawang putih, bawang merah, kecap manis, dan sambal, serta sering kali diberi tambahan bahan-bahan lain seperti telur, ayam, udang, atau sayuran. Bahan utama: Nasi putih, bawang putih, bawang merah, kecap manis, cabai, telur, dan berbagai tambahan seperti ayam, udang, atau sosis.</item>
+        <item>Sate ayam adalah hidangan khas Indonesia yang terdiri dari potongan daging ayam yang ditusuk menggunakan tusuk sate, kemudian dibakar atau dipanggang di atas arang. Bahan utama: Daging ayam yang dipotong kecil-kecil, bumbu kacang (terbuat dari kacang tanah, bawang putih, dan kecap manis), serta sambal dan lontong sebagai pelengkap.</item>
+        <item>Rendang adalah masakan tradisional khas Minangkabau, Sumatera Barat, yang terkenal dengan cita rasa kaya bumbu dan proses memasak yang lama. Bahan utama: Daging sapi, santan, cabai, bawang merah, bawang putih, serai, daun jeruk, daun kunyit, dan kelapa parut yang dimasak hingga bumbu mengental.</item>
+        <item>Bakso adalah hidangan populer khas Indonesia yang terdiri dari bola-bola daging, biasanya terbuat dari campuran daging sapi giling, tepung, dan bumbu, yang disajikan dalam kuah kaldu gurih. Bahan utama: Daging sapi atau ayam yang dihaluskan, tepung tapioka, bawang putih, merica, garam, dan kaldu untuk kuah bakso.</item>
+        <item>Pempek adalah makanan khas Palembang, Sumatera Selatan, yang terbuat dari adonan ikan dan tepung sagu yang digoreng atau direbus, lalu disajikan dengan kuah cuka yang disebut cuko. Bahan utama: Ikan (biasanya ikan tenggiri), tepung sagu, air, bawang putih, dan cuka sebagai kuahnya.</item>
+        <item>Ayam serundeng adalah hidangan khas Indonesia yang terdiri dari ayam yang dimasak dengan berbagai bumbu dan disajikan dengan serundeng, yaitu parutan kelapa yang digoreng hingga kering. Bahan utama: Daging ayam, parutan kelapa, bawang putih, bawang merah, serai, daun salam, kunyit, dan santan.</item>
+        <item>Nasi Padang adalah hidangan khas Minangkabau dari Sumatera Barat, Indonesia, yang terkenal dengan sajian nasi putih yang disajikan bersama berbagai lauk pauk khas Minang. Bahan utama: Nasi putih disajikan dengan lauk pauk seperti rendang, gulai, dendeng, sayur nangka, sambal, dan berbagai pilihan lauk khas Padang lainnya.</item>
+        <item>Mie ayam adalah salah satu hidangan populer di Indonesia yang terdiri dari mi yang disajikan dengan potongan daging ayam yang dimasak dengan bumbu kecap, dan dilengkapi dengan kuah kaldu. Bahan utama: Mi telur, daging ayam yang dimasak dengan bumbu kecap, bawang putih, dan kuah kaldu ayam. Biasanya ditambah sawi hijau dan pangsit.</item>
+        <item>Rawon adalah hidangan sup daging khas Jawa Timur, Indonesia, yang memiliki warna hitam pekat karena penggunaan kluwek (buah keluak) sebagai bahan utama. Bahan utama: Daging sapi, kluwek (yang memberi warna hitam), bawang merah, bawang putih, lengkuas, serai, daun jeruk, dan berbagai rempah lainnya.</item>
     </string-array>
+
     <integer-array name="data_img">
         <item>@drawable/babat</item>
         <item>@drawable/nasgor</item>
@@ -41,16 +44,4 @@
         <item>@drawable/mieayam</item>
         <item>@drawable/rawon</item>
     </integer-array>
-    <string-array name="data_detail">
-        <item>Bahan utama: Babat (bagian dalam perut sapi), bawang putih, bawang merah, serai, daun salam, jahe, kunyit, santan, dan rempah-rempah lainnya.</item>
-        <item>Bahan utama: Nasi putih, bawang putih, bawang merah, kecap manis, cabai, telur, dan berbagai tambahan seperti ayam, udang, atau sosis.</item>
-        <item>Bahan utama: Daging ayam yang dipotong kecil-kecil, bumbu kacang (terbuat dari kacang tanah, bawang putih, dan kecap manis), serta sambal dan lontong sebagai pelengkap.</item>
-        <item>Bahan utama: Daging sapi, santan, cabai, bawang merah, bawang putih, serai, daun jeruk, daun kunyit, dan kelapa parut yang dimasak hingga bumbu mengental.</item>
-        <item>Bahan utama: Daging sapi atau ayam yang dihaluskan, tepung tapioka, bawang putih, merica, garam, dan kaldu untuk kuah bakso.</item>
-        <item>Bahan utama: Ikan (biasanya ikan tenggiri), tepung sagu, air, bawang putih, dan cuka sebagai kuahnya.</item>
-        <item>Bahan utama: Daging ayam, parutan kelapa, bawang putih, bawang merah, serai, daun salam, kunyit, dan santan.</item>
-        <item>Bahan utama: Nasi putih disajikan dengan lauk pauk seperti rendang, gulai, dendeng, sayur nangka, sambal, dan berbagai pilihan lauk khas Padang lainnya.</item>
-        <item>Bahan utama: Mi telur, daging ayam yang dimasak dengan bumbu kecap, bawang putih, dan kuah kaldu ayam. Biasanya ditambah sawi hijau dan pangsit.</item>
-        <item>Bahan utama: Daging sapi, kluwek (yang memberi warna hitam), bawang merah, bawang putih, lengkuas, serai, daun jeruk, dan berbagai rempah lainnya.</item>
-    </string-array>
 </resources>
