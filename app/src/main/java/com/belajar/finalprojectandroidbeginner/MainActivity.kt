@@ -34,11 +34,13 @@ class MainActivity : AppCompatActivity() {
     private fun getListFoods(): ArrayList<FoodItem> {
         val dataName = resources.getStringArray(R.array.data_name)
         val dataDescription = resources.getStringArray(R.array.data_desc)
+        val dataReview = resources.getStringArray(R.array.data_review)
+        val dataRating = resources.obtainTypedArray(R.array.data_rating)
         val dataPhoto = resources.obtainTypedArray(R.array.data_img)
 
         val listFood = ArrayList<FoodItem>()
         for (i in dataName.indices) {
-            val food = FoodItem(dataName[i], dataDescription[i], dataPhoto.getResourceId(i, -1))
+            val food = FoodItem(dataName[i], dataDescription[i], dataReview[i], dataRating.getFloat(i, 0f),dataPhoto.getResourceId(i, -1))
             listFood.add(food)
         }
         return listFood

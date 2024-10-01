@@ -6,6 +6,8 @@
     <string name="description_detail">Soto babat adalah salah satu jenis soto khas Indonesia yang terbuat dari daging babat, yaitu bagian dari perut sapi yang dikenal dengan teksturnya yang kenyal. Soto ini biasanya disajikan dalam kuah kaldu yang kaya akan rempah-rempah, seperti kunyit, jahe, dan serai, yang memberikan cita rasa yang khas.</string>
     <string name="about_name">Syakillah Nachwa</string>
     <string name="about_dicodingEmail">syakillahnachwa081@gmail.com</string>
+    <string name="Review">Review</string>
+    <string name="detail_review">Memiliki cita rasa gurih dan kaya rempah, dengan babat yang empuk dan kuah yang lezat. Cocok dinikmati sebagai makanan hangat di pagi atau siang hari.</string>
 
     <string-array name="data_name">
         <item>Soto Babat</item>
@@ -47,4 +49,33 @@
         <item>@drawable/rawon</item>
         <item>@drawable/soto</item>
     </integer-array>
+
+    <string-array name="data_rating">
+        <item>4.5</item>
+        <item>4.7</item>
+        <item>4.6</item>
+        <item>5.0</item>
+        <item>4.5</item>
+        <item>4.3</item>
+        <item>4.4</item>
+        <item>4.8</item>
+        <item>4.6</item>
+        <item>4.7</item>
+        <item>4.6</item>
+    </string-array>
+
+    <string-array name="data_review">
+        <item>Memiliki cita rasa gurih dan kaya rempah, dengan babat yang empuk dan kuah yang lezat. Cocok dinikmati sebagai makanan hangat di pagi atau siang hari.</item>
+        <item>Sangat nikmat dengan campuran kecap manis yang pas, tekstur nasi yang tidak terlalu lembek, dan pilihan topping yang variatif seperti telur dan ayam.</item>
+        <item>Empuk dan bumbu kacangnya gurih serta kental. Ditambah lontong atau nasi, sate ini sempurna sebagai hidangan utama atau camilan sore.</item>
+        <item>Daging dimasak sempurna dengan tekstur empuk dan bumbu meresap hingga ke dalam. Rasa pedas dan santan yang seimbang membuatnya menjadi salah satu makanan favorit banyak orang.</item>
+        <item>Kenyal dengan rasa daging yang autentik, dilengkapi kuah kaldu yang gurih dan pelengkap seperti mie atau bihun. Sangat cocok untuk dinikmati kapan saja.</item>
+        <item>Enak dan kenyal, dipadukan dengan cuko yang asam, manis, dan sedikit pedas memberikan cita rasa yang segar dan menggugah selera.</item>
+        <item>Gurih dengan kelapa parut yang kering dan renyah. Daging ayamnya empuk, cocok disantap dengan nasi hangat dan sambal.</item>
+        <item>Menyajikan berbagai pilihan lauk yang menggugah selera. Setiap lauk memiliki bumbu khas Minang yang kaya dan pedas, sangat memuaskan untuk pecinta makanan berempah.</item>
+        <item>Lembut dengan topping ayam yang manis dan gurih. Kuah kaldunya ringan namun kaya rasa, dengan tambahan pangsit goreng yang renyah.</item>
+        <item>Kuah hitamnya yang khas memberikan sensasi rasa yang mendalam. Dagingnya empuk dan rempah-rempah yang digunakan sangat pas, memberikan rasa autentik yang nikmat.</item>
+        <item>Kuah sotonya wangi dan sangat menggugah selera. Daun bawangnya banyak belum lagi ketika ditambahkan bihun wanginya sangat semerbak</item>
+    </string-array>
+
 </resources>

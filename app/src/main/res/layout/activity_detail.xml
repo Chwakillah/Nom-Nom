@@ -46,7 +46,7 @@
                 android:paddingTop="8dp"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:text="@string/title_detail"
+                tools:text="@string/title_detail"
                 app:layout_constraintStart_toStartOf="parent"
                 app:layout_constraintTop_toBottomOf="@+id/iv_foodPic"/>
             <TextView
@@ -56,9 +56,49 @@
                 style="@style/textDescription"
                 android:paddingStart="8dp"
                 android:paddingTop="8dp"
-                android:text="@string/description_detail"
+                tools:text="@string/description_detail"
                 app:layout_constraintStart_toStartOf="parent"
                 app:layout_constraintTop_toBottomOf="@id/tv_foodTitle"/>
+            <TextView
+                android:id="@+id/tv_reviewTitle"
+                style="@style/textTitle"
+                android:paddingStart="8dp"
+                android:paddingTop="8dp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                tools:text="@string/Review"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/tv_descriptionDetail"/>
+            <ImageView
+                android:id="@+id/star_rating"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:src="@drawable/baseline_star_24"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/tv_reviewTitle"
+                android:paddingStart="8dp" />
+
+            <TextView
+                android:id="@+id/rating_points"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="14sp"
+                style="@style/textDescription"
+                android:paddingStart="8dp"
+                tools:text="4.5"
+                app:layout_constraintStart_toEndOf="@id/star_rating"
+                app:layout_constraintTop_toTopOf="@id/star_rating" />
+
+            <TextView
+                android:id="@+id/tv_descriptionReview"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                style="@style/textDescription"
+                android:paddingStart="8dp"
+                android:paddingTop="8dp"
+                tools:text="@string/detail_review"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@id/star_rating"/>
         </androidx.constraintlayout.widget.ConstraintLayout>
     </androidx.constraintlayout.widget.ConstraintLayout>
 </ScrollView>

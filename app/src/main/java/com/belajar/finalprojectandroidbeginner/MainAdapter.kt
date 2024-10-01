@@ -29,6 +29,8 @@ class MainAdapter(
                 putExtra("EXTRA_IMAGE", food.image)
                 putExtra("EXTRA_TITLE", food.title)
                 putExtra("EXTRA_DESC", food.description)
+                putExtra("EXTRA_RATING", food.rating)
+                putExtra("EXTRA_REVIEW", food.review)
             }
             holder.itemView.context.startActivity(intent)
         }

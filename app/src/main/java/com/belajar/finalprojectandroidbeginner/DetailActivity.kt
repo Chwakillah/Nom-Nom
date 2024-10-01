@@ -14,15 +14,21 @@ class DetailActivity : AppCompatActivity() {
 
         val ivImgDetail = findViewById<ImageView>(R.id.iv_foodPic)
         val tvTitleDetail = findViewById<TextView>(R.id.tv_foodTitle)
+        val tvRating = findViewById<TextView>(R.id.rating_points)
+        val tvReview = findViewById<TextView>(R.id.tv_descriptionReview)
         val tvDescriptionDetail = findViewById<TextView>(R.id.tv_descriptionDetail)
 
         val foodImage = intent.getIntExtra("EXTRA_IMAGE", 0)
         val foodTitle = intent.getStringExtra("EXTRA_TITLE")
         val foodDescription = intent.getStringExtra("EXTRA_DESC")
+        val foodRating = intent.getFloatExtra("EXTRA_RATING", 0f)
+        val foodReview = intent.getStringExtra("EXTRA_REVIEW")
 
         ivImgDetail.setImageResource(foodImage)
         tvTitleDetail.text = foodTitle
         tvDescriptionDetail.text = foodDescription
+        tvRating.text = foodRating.toString()
+        tvReview.text = foodReview
 
         val ivBtnBack = findViewById<ImageView>(R.id.iv_btnBack)
         ivBtnBack.setOnClickListener{
